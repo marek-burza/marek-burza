@@ -67,7 +67,7 @@ Drove the full lifecycle of AI/ML clinical cancer diagnostics products, from res
 
 Lead software engineer in the Fluence unit of OSRAM, on the Smart Farming team tasked with digitization of vertical farming and greenhouse operations. Highlights:
 
-- In the Senior role, I led a team of 3 who developed a Node.js/Electron app, and I implemented a CLI in Go (open-sourced) for PHYTOFY research light control - used by e.g. NASA, 3rd-party (climate chamber) integrators, the Customer Cultivation Support Lab, and a factory for system test automation.
+- In the Senior role, I led a team of 3 who developed a Node.js/Electron app, and I implemented a CLI in Go (open-sourced) for PHYTOFY research light control - used by e.g. NASA, 3rd-party (climate chamber) integrators, the Customer Cultivation Support Lab, a factory for system test automation.
 - Advised the CEO office on 3rd-party partner and systems selection in merger/acquisition projects.
 - Automated lab & testbed sites operations (secure remote access for telemetry and control, etc.).
 - Promoted to the Principal role, I led a team of 9 engineers while also engineering critical paths. The team developed, launched and operated a multi-tenant IIoT platform on AWS, tailored to operating indoor / greenhouse plant production, integrating 3rd-party vendors for lighting actuation scheduling and sensor data acquisition. The platform also featured production status dashboards, alerts and notifications, as well as decision-support tools leveraging satellite-based climate lighting models. This covered: cloud infrastructure, backend services, web frontend and mobile app.
