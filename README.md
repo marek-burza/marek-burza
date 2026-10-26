@@ -79,7 +79,7 @@ Lead software engineer in the Fluence unit of OSRAM, on the Smart Farming team t
 
 **Reference letter**: [Timo Bongartz](https://drive.google.com/file/d/1m2mDOi7TUNZDttUs_mprnTVC9Vldvnig/view) - EMEA Head of Fluence by OSRAM
 
-### Senior Software Engineer (Dev Tools) - [Huawei](http://www.huawei.com/)
+### Senior Software Engineer (Dev Tools) - [Huawei](https://www.huawei.com/)
 
 *March 2017 - March 2018*; *München, Germany*
 
@@ -93,7 +93,7 @@ Senior member of the Testing and Reliability Engineering team tasked with develo
 
 **Reference letter:** [Nokhaz Yaqub](https://drive.google.com/file/d/1qFYgkJPeczUuLbjvT2_P-L6bQUbXbFVc/view) - Technical Director for the Testing and Reliability Engineering Center
 
-### Software Engineer and Research Scientist - [Philips](http://www.research.philips.com/)
+### Software Engineer and Research Scientist - [Philips](https://www.philips.com/)
 
 *May 2005 - February 2017*; *Eindhoven, The Netherlands*
 
@@ -112,7 +112,7 @@ Engineered new Philips products and services, initially for consumer electronics
 
 **Reference letter:** [Dr. Jörg Habetha](https://drive.google.com/file/d/1By3QR1zh2hZJozD9wbcvgPp2e-GGwvjp/view) - Personal Health Department Head
 
-### Software Engineer and Project Leader - [Siemens](http://www.siemens.com/)
+### Software Engineer and Project Leader - [Siemens](https://www.siemens.com/)
 
 *November 2002 - July 2004*; *Wrocław, Poland*
 
@@ -130,13 +130,13 @@ Designed and developed the software for real-time metering and billing for telec
 
 ## EDUCATION
 
-### Ph.D. student (left for Philips Research) - [RijksUniversiteit Groningen](http://www.rug.nl/)
+### Ph.D. student (left for Philips Research) - [RijksUniversiteit Groningen](https://www.rug.nl/)
 
 *August 2004 - April 2005*; *Groningen, The Netherlands*
 
-**Links:** [Dynamic Logic for Security - research proposal](http://www.cs.rug.nl/~grl/resproj/dylos.pdf)
+**Links:** [Dynamic Logic for Security - research proposal](https://www.cs.rug.nl/~grl/resproj/dylos.pdf)
 
-### Master in Computer Science (M.Sc. honors) - [Wroclaw University of Technology](http://www.weka.pwr.wroc.pl/)
+### Master in Computer Science (M.Sc. honors) - [Wroclaw University of Technology](https://pwr.wroc.pl/)
 
 *October 1997 - June 2002*; *Wrocław, Poland*
 
@@ -160,9 +160,9 @@ Designed and developed the software for real-time metering and billing for telec
 - [Controlled Agricultural Systems and Methods of Managing Agricultural Systems](https://patents.google.com/patent/US20190259108A1) (invention; 2019)
 - [Machine Learning](https://www.coursera.org/account/accomplishments/certificate/9D7SPM5ABRN4) by Stanford University (certificate; 2016)
 - [Mobile help buttons with multiple location technologies](https://patents.google.com/patent/US20160094953A1) (invention; 2016)
-- [Professional Scrum Master level I](http://www.scrum.org/User-Profile/userId/174800) (certificate; 2016)
-- [A method of communicating information between nodes](http://www.google.com/patents/WO2013190415A2) (invention; 2013)
+- [Professional Scrum Master level I](https://www.scrum.org/User-Profile/userId/174800) (certificate; 2016)
+- [A method of communicating information between nodes](https://www.google.com/patents/WO2013190415A2) (invention; 2013)
 - ISO QMS and risk management - [14971](https://drive.google.com/file/d/1wiFbGbPZjK36LgXC8q5_FiN4u-YCOA0G/view), [13485:2003 and 14971:2009](https://drive.google.com/file/d/1rle_iuCptdx-SCbLiNdqRsbAQwojk9Ko/view) (certificates; 2009 and 2012)
 - [Fitness test system](https://patents.google.com/patent/EP2324762A1) (invention; 2010)
 - [Enabling Temporal Bit Rate Adaptation in Encrypted Video Streams](https://ieeexplore.ieee.org/document/5421797) (CCNC publication, IEEE; 2010)
-- [Adaptive Streaming of Audio/Video Content over Wireless Networks](http://link.springer.com/chapter/10.1007/11907381_2) (MMNS publication; 2006)
+- [Adaptive Streaming of Audio/Video Content over Wireless Networks](https://link.springer.com/chapter/10.1007/11907381_2) (MMNS publication; 2006)
