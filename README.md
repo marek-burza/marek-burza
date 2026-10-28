@@ -24,7 +24,7 @@ I take data and AI/ML systems from research prototypes to production and keep th
 
 *March 2026 - present*; *München, Germany*
 
-**Technologies:** Python, PyTorch, cuML, pandas, numpy, Anthropic SDK, LangChain, Claude Code, MCP
+Technologies: Python, PyTorch, cuML, pandas, numpy, Anthropic SDK, LangChain, Claude Code, MCP
 
 ### Staff Software Engineer - [Helsing](https://helsing.ai/)
 
@@ -36,7 +36,7 @@ Worked with research scientists on productization of a computer vision and telem
 - Integrated the pipeline with telemetry acquisition, actuation, as well as safety harness and overrides - making it part of a product.
 - Implemented the ETL pipeline and introduced automated regression monitoring of algorithm performance metrics - allowing the team to visualize trends and catch regressions early.
 
-**Technologies:** Rust, Python, Bash, perf, pprof, TensorRT, GitLab CI, Plotly, pandas, numpy, protobuf, Neptune, Grafana, Claude Code, LangChain, MCP
+Technologies: Rust, Python, Bash, perf, pprof, TensorRT, GitLab CI, Plotly, pandas, numpy, protobuf, Neptune, Grafana, Claude Code, LangChain, MCP
 
 **Reference letter:** available upon request
 
@@ -55,7 +55,7 @@ Drove the full lifecycle of AI/ML clinical cancer diagnostics products, from res
 - Built an LLM-assisted data labeling workflow, maintained shared ML libraries, improved collection and visualization of metrics.
 - Collaborated with major pharma partners on research related to biomarker detection.
 
-**Technologies:** Python, PyTorch, PyTorch Profiler, cuML, scikit-learn, pandas, numpy, mprof, TensorRT, Docker, GitLab CI (later migrated to GitHub Actions), Artifactory, wandb, Gradio, FastAPI, DataDog, Grafana, AWS (EC2, S3, IAM), Prefect, SLURM
+Technologies: Python, PyTorch, PyTorch Profiler, cuML, scikit-learn, pandas, numpy, mprof, TensorRT, Docker, GitLab CI (later migrated to GitHub Actions), Artifactory, wandb, Gradio, FastAPI, DataDog, Grafana, AWS (EC2, S3, IAM), Prefect, SLURM
 
 **Links:** [Virchow foundation model on Hugging Face](https://huggingface.co/paige-ai/Virchow2)
 
@@ -73,7 +73,7 @@ Lead software engineer in the Fluence unit of OSRAM, on the Smart Farming team t
 - Promoted to the Principal role, I led a team of 9 engineers while also engineering critical paths. The team developed, launched and operated a multi-tenant IIoT platform on AWS, tailored to operating indoor / greenhouse plant production, integrating 3rd-party vendors for lighting actuation scheduling and sensor data acquisition. The platform also featured production status dashboards, alerts and notifications, as well as decision-support tools leveraging satellite-based climate lighting models. This covered: cloud infrastructure, backend services, web frontend and mobile app.
 - Mentored the broader engineering team, raised the engineering bar and enabled transition from PoCs to launched products: rollout of CI/CD build and deployment automation, AWS best practices, introduction of postmortems for production issues, UX harmonization across frontends, unification of roadmap and prioritization of backlog items to improve team's coordination, integration with enterprise security scanning infrastructure, as well as migration of the time-series database to a managed service to unblock scaling issues and improve the cost-effectiveness.
 
-**Technologies:** Python, Go, AWS (ECS, ECR, SQS, RDS, SNS, WorkMail, Cognito, Lambda, API Gateway, EB, EFS, EC2, CloudFormation, CloudWatch), Azure (AKS, Azure Active Directory, Azure Blob Storage), Kubernetes, Docker, Terraform, Bitbucket Pipelines, GitHub Actions, PostgreSQL, TimescaleDB, Redis, FastAPI, Plotly, TypeScript, Vue, Vuetify
+Technologies: Python, Go, AWS (ECS, ECR, SQS, RDS, SNS, WorkMail, Cognito, Lambda, API Gateway, EB, EFS, EC2, CloudFormation, CloudWatch), Azure (AKS, Azure Active Directory, Azure Blob Storage), Kubernetes, Docker, Terraform, Bitbucket Pipelines, GitHub Actions, PostgreSQL, TimescaleDB, Redis, FastAPI, Plotly, TypeScript, Vue, Vuetify
 
 **Links:** [PHYTOFY at NASA](https://youtu.be/bSFfbB5mT-o)
 
@@ -89,7 +89,7 @@ Senior member of the Testing and Reliability Engineering team tasked with develo
 - Introduced CI/CD automation to the team, dockerized the testing environment, automated all unit and end-to-end tests, along with the platform builds and deployment of the CI/CD runners.
 - Led a team of 4 external contractors and coordinated with a wider distributed Huawei team.
 
-**Technologies:** Python, JavaScript, Go, Bash, Docker, Linux, GitLab CI, CI/CD, Ansible, Java, pytest
+Technologies: Python, JavaScript, Go, Bash, Docker, Linux, GitLab CI, CI/CD, Ansible, Java, pytest
 
 **Reference letter:** [Nokhaz Yaqub](https://drive.google.com/file/d/1qFYgkJPeczUuLbjvT2_P-L6bQUbXbFVc/view) - Technical Director for the Testing and Reliability Engineering Center
 
@@ -108,7 +108,7 @@ Engineered new Philips products and services, initially for consumer electronics
 - Designed and implemented a fall prevention system - coupling an AWS-deployed ML model with telemetry from GoSafe wearables, through a bespoke ETL pipeline (custom-designed compression & DSP preprocessing in Python) and event processing architecture. The system scaled cost-effectively to 100k+ production users.
 - My responsibilities also included: technology evaluation and selection, IP creation and circumvention, acting as a Scrum master, mentoring of junior software engineers and PhD students, cooperation with EU projects and standardization bodies.
 
-**Technologies:** C, Python, JavaScript, AWS (ECS, Lambda, API Gateway, SQS, S3, CloudWatch), GCP, Docker, numpy, GitLab CI, Linux, MySQL, ETL, MSP430, ARM, location positioning, TCP/IP
+Technologies: C, Python, JavaScript, AWS (ECS, Lambda, API Gateway, SQS, S3, CloudWatch), GCP, Docker, numpy, GitLab CI, Linux, MySQL, ETL, MSP430, ARM, location positioning, TCP/IP
 
 **Reference letter:** [Dr. Jörg Habetha](https://drive.google.com/file/d/1By3QR1zh2hZJozD9wbcvgPp2e-GGwvjp/view) - Personal Health Department Head
 
@@ -123,7 +123,7 @@ Designed and developed the software for real-time metering and billing for telec
 - Extended testing harness with automatic conversion of fault logs to test cases.
 - Led a team of 4 software engineers and testers; championed Agile development practices (e.g. short-cycle incremental planning, TDD, automation) prior to their widespread adoption.
 
-**Technologies:** Java, Linux, Oracle Database
+Technologies: Java, Linux, Oracle Database
 
 **Reference letter:** [Seweryn Krajewski](https://drive.google.com/file/d/1vGHlXgqhkMgBcvCsY59PsuL2zDawjuCe/view) - Department Manager
 
