@@ -6,13 +6,13 @@
 
 ## SUMMARY
 
-I take data and AI/ML systems from research prototypes to production and keep them there: training and inference pipelines, their data and ETL plumbing, and the model packaging, release and regression tooling that makes shipping a model routine rather than a project. Greenfield and existing systems: a multi-tenant IIoT platform on AWS at OSRAM, a fall-prevention ML service at Philips scaled past 100k users, a model release process at Paige taken from a multi-sprint, team-wide effort to a one-day, single-engineer operation, and a computer vision pipeline at Helsing taken to 2.8x throughput.
+I take data and AI/ML systems from research prototypes to production: training and inference pipelines, data and ETL plumbing, and the model packaging, release and evaluation tooling that makes shipping a product routine. I work with greenfield and existing systems, e.g. a computer vision pipeline at Helsing taken to 2.8x throughput, a release process for clinical AI/ML models at Paige cut from a multi-sprint/team-wide effort to a one-day/single-engineer operation, a multi-tenant IIoT platform on AWS at OSRAM, and a fall-prevention ML service at Philips scaled past 100k users.
 
-**Languages & platforms:** Python (20+ yrs), Rust, Go, Bash · AWS, Azure · Docker · Linux
+**Languages & platforms:** Python (primary), Rust, Go, Bash · AWS, Azure · Docker · Linux
 
 **AI/ML:** PyTorch · distributed training (DDP, SLURM, Prefect) · TensorRT · model packaging and release automation · experiment tracking and metrics visualization (W&B, Neptune, Plotly)
 
-**Platform & data:** CI/CD (GitLab CI, GitHub Actions) · ETL and data pipelines · S3 data lakes · PostgreSQL, TimescaleDB, MongoDB, Redis · FastAPI · observability (Grafana, DataDog)
+**Platform & data:** CI/CD (GitLab CI, GitHub Actions) · ETL and data pipelines · S3 data lakes · PostgreSQL, TimescaleDB · MongoDB, Redis · FastAPI · observability (Grafana, DataDog)
 
 **Performance & troubleshooting:** throughput and memory optimization · distributed-system debugging · automated regression monitoring · PyTorch Profiler, perf, pprof, mprof, Nsight
 
