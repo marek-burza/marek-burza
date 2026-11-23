@@ -20,11 +20,13 @@ I take data and AI/ML systems from research prototypes to production and keep th
 
 ## PROFESSIONAL EXPERIENCE
 
-### Staff AI/ML Software Engineer - under NDA
+### AI/ML Software Engineer - R&D
 
 *March 2026 - present*; *München, Germany*
 
-Technologies: Python, PyTorch, cuML, pandas, numpy, Anthropic SDK, LangChain, Claude Code, MCP
+Built and keep evolving an agentic system for automated research and development of ML model pipelines for live quantitative prediction in the finance domain. The harness for the agents uses persistent memory across research sessions, and experiments use leakage-safe validation and statistical significance testing guardrails. The pipelines leverage an ensemble of gradient-boosted trees and PyTorch networks (e.g. XGBoost, LightGBM, ResNet, TabNet, TabM) on top of autoencoder & GAN embedders.
+
+Technologies: Python, PyTorch, scikit-learn, cuML, TensorRT, pandas, numpy, LangChain, Hugging Face SDKs, MCP, RAG, Claude Code, llama.cpp, SQL, Docker
 
 ### Staff Software Engineer - [Helsing](https://helsing.ai/)
 
@@ -36,7 +38,7 @@ Worked with research scientists on productization of a computer vision and telem
 - Integrated the pipeline with telemetry acquisition, actuation, as well as safety harness and overrides - making it part of a product.
 - Implemented the ETL pipeline and introduced automated regression monitoring of algorithm performance metrics - allowing the team to visualize trends and catch regressions early.
 
-Technologies: Rust, Python, Bash, perf, pprof, TensorRT, GitLab CI, Plotly, pandas, numpy, protobuf, Neptune, Grafana, Claude Code, LangChain, MCP
+Technologies: Rust, Python, Bash, perf, pprof, TensorRT, GitLab CI, Plotly, pandas, numpy, protobuf, Neptune, Grafana, Claude Code
 
 **Reference letter:** available upon request
 
