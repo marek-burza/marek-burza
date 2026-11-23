@@ -32,11 +32,11 @@ Technologies: Python, PyTorch, scikit-learn, cuML, TensorRT, pandas, numpy, Lang
 
 *October 2024 - February 2026*; *München, Germany*
 
-Worked with research scientists on productization of a computer vision and telemetry pipeline for defense applications, with focus on system integration, profiling and optimization. Highlights:
+Worked with research scientists on productization of a computer vision and telemetry pipeline for defense applications, with focus on system integration, automation, profiling and optimization. Highlights:
 
 - Optimized the computer vision processing pipeline to operate at 2.8x of the original framerate.
 - Integrated the pipeline with telemetry acquisition, actuation, as well as safety harness and overrides - making it part of a product.
-- Implemented the ETL pipeline and introduced automated regression monitoring of algorithm performance metrics - allowing the team to visualize trends and catch regressions early.
+- Implemented the ETL pipeline and automated nightly regression monitoring of algorithm performance metrics against a baseline - enabling the team to visualize trends and catch regressions early.
 
 Technologies: Rust, Python, Bash, perf, pprof, TensorRT, GitLab CI, Plotly, pandas, numpy, protobuf, Neptune, Grafana, Claude Code
 
@@ -49,8 +49,8 @@ Technologies: Rust, Python, Bash, perf, pprof, TensorRT, GitLab CI, Plotly, pand
 Drove the full lifecycle of AI/ML clinical cancer diagnostics products, from research to production, and developed the AI/ML tooling and infrastructure behind it. Highlights:
 
 - Released models spanning tissue types (e.g. prostate, breast, colon) and covering cancer detection, classification and segmentation - in compliance with FDA/CE-IVDR/ISO regulations; collaborated on the Virchow pathology foundation model and its release as the pan-cancer detection product.
-- Transformed packaging of trained models from a manual, multi-sprint, team-wide process into a one-day, single-engineer operation, through implementation of templating for configuration of model inference and transformations of its outputs - which scaled teams to more products.
-- Orchestrated experiments and model training (Prefect, Slurm) across an on-prem cluster (DGX nodes with A100/V100 GPUs) alongside data scientists.
+- Transformed packaging and release of trained models from a manual, multi-sprint, team-wide process into a one-day, single-engineer operation, through implementation of templating for configuration of model inference and transformations of its outputs - which scaled teams to more products.
+- Orchestrated experiments and model training (Prefect, SLURM) on a shared on-prem cluster (DGX nodes with A100/V100 GPUs) alongside data scientists.
 - Profiled and resolved computational performance and memory issues from training to production inference; optimized inference on AWS T4 instances with model compilation (TensorRT), reducing latency and cutting the operational costs by 15%.
 - Promoted in 2023 to team lead of the cross-functional clinical product team of 5 engineers and scientists (coordinating with medical, UX and frontend, infrastructure and regulatory staff); mentored engineers (e.g. best practices, CI/CD use, idiomatic Python) and ran code reviews.
 - Automated regulatory acceptance tests across teams, eliminating error-prone manual release tasks.
@@ -69,11 +69,11 @@ Technologies: Python, PyTorch, PyTorch Profiler, cuML, scikit-learn, pandas, num
 
 Lead software engineer in the Fluence unit of OSRAM, on the Smart Farming team tasked with digitization of vertical farming and greenhouse operations. Highlights:
 
-- In the Senior role, I led a team of 3 who developed a Node.js/Electron app, and I implemented a CLI in Go (open-sourced) for PHYTOFY research light control - used by e.g. NASA, 3rd-party (climate chamber) integrators, the Customer Cultivation Support Lab, a factory for system test automation.
+- In the Senior role, I led a team of 3 who developed a Node.js/Electron app, and I implemented a CLI in Go (open-sourced) for PHYTOFY research light control - used by e.g. NASA, 3rd-party (climate chamber) integrators, the Customer Cultivation Support Lab, and a factory for system test automation.
 - Advised the CEO office on 3rd-party partner and systems selection in merger/acquisition projects.
 - Automated lab & testbed sites operations (secure remote access for telemetry and control, etc.).
-- Promoted to the Principal role, I led a team of 9 engineers while also engineering critical paths. The team developed, launched and operated a multi-tenant IIoT platform on AWS, tailored to operating indoor / greenhouse plant production, integrating 3rd-party vendors for lighting actuation scheduling and sensor data acquisition. The platform also featured production status dashboards, alerts and notifications, as well as decision-support tools leveraging satellite-based climate lighting models. This covered: cloud infrastructure, backend services, web frontend and mobile app.
-- Mentored the broader engineering team, raised the engineering bar and enabled transition from PoCs to launched products: rollout of CI/CD build and deployment automation, AWS best practices, introduction of postmortems for production issues, UX harmonization across frontends, unification of roadmap and prioritization of backlog items to improve team's coordination, integration with enterprise security scanning infrastructure, as well as migration of the time-series database to a managed service to unblock scaling issues and improve the cost-effectiveness.
+- Promoted to the Principal role, I led a team of 9 engineers while also engineering critical paths. The team developed, launched and operated a multi-tenant IIoT platform on AWS, tailored to operating indoor / greenhouse plant production, integrating 3rd-party vendors for lighting actuation scheduling and sensor data acquisition, and featuring production status dashboards, alerts and notifications, and decision-support tools leveraging satellite-based climate lighting models. This covered: cloud infrastructure, backend services/APIs, web frontend and mobile app.
+- Mentored the R&D team, raised the engineering bar and enabled the transition from PoCs to launched products: rollout of CI/CD build and deployment automation, AWS best practices, introduction of postmortems for production issues, UX harmonization across frontends, unification of roadmap and prioritization of backlog items to improve team's coordination, integration with enterprise security scanning infrastructure, and migration of the time-series database to a managed service to unblock scaling issues and improve the cost-effectiveness.
 
 Technologies: Python, Go, AWS (ECS, ECR, SQS, RDS, SNS, WorkMail, Cognito, Lambda, API Gateway, EB, EFS, EC2, CloudFormation, CloudWatch), Azure (AKS, Azure Active Directory, Azure Blob Storage), Kubernetes, Docker, Terraform, Bitbucket Pipelines, GitHub Actions, PostgreSQL, TimescaleDB, Redis, FastAPI, Plotly, TypeScript, Vue, Vuetify
 
@@ -85,7 +85,7 @@ Technologies: Python, Go, AWS (ECS, ECR, SQS, RDS, SNS, WorkMail, Cognito, Lambd
 
 *March 2017 - March 2018*; *München, Germany*
 
-Senior member of the Testing and Reliability Engineering team tasked with development of the software engineering tools used by the mobile and cloud business units to accelerate their work and improve the quality of their output. Highlights:
+Senior member of the Testing and Reliability Engineering team tasked with development of the internal software engineering platform and tools used by the mobile and cloud business units to accelerate their work and improve the quality of their output. Highlights:
 
 - Implemented microservices for the Huawei-internal cloud-native IDE, e.g.: single sign-on integration, services for software testing and static code analysis; optimized the platform for short start-up time and low resource consumption.
 - Introduced CI/CD automation to the team, dockerized the testing environment, automated all unit and end-to-end tests, along with the platform builds and deployment of the CI/CD runners.
@@ -99,16 +99,13 @@ Technologies: Python, JavaScript, Go, Bash, Docker, Linux, GitLab CI, CI/CD, Ans
 
 *May 2005 - February 2017*; *Eindhoven, The Netherlands*
 
-Engineered new Philips products and services, initially for consumer electronics and video streaming, later for personal fitness and healthcare. Projects combined various languages, technologies, and spanned from resource-constrained IoT devices to backend/cloud platforms. Highlights:
+Engineered new Philips products and services, initially for consumer electronics and video streaming, later for personal fitness and healthcare. Projects spanned from resource-constrained IoT devices to backend/cloud platforms. Highlights:
 
-- Developed custom tools for performance profiling which allowed me to optimize the cache memory and memory bus bandwidth footprint of an H.264 decoder on a multicore DSP CPU.
-- Implemented temporal scalability QoS techniques (for Linux kernel and userspace) for streaming of (encrypted) H.264 video, used in STB810 set-top-box and VP5500 VoIP phone.
-- Prototyped an OpenGL transcoder for the cloud gaming Games@Large EU project.
-- Optimized frame buffer access in a specialized LED display (Lumalive) raising framerate by an order of magnitude (and enabling video playback).
+- Designed and implemented a fall prevention system - coupling an AWS-deployed ML model with telemetry from GoSafe wearables, through a bespoke ETL pipeline (custom-designed compression & DSP preprocessing in Python) and an event-driven architecture. The system scaled cost-effectively to 100k+ production users.
+- Implemented the software (C on MSP430 and ARM Cortex M0; Python services on GCP) for the Lifeline GoSafe personal emergency response system (incl. connectivity and location positioning).
 - Implemented social features for the DirectLife fitness tracking cloud service and created prototypes for monitoring of all pillars of physical fitness.
-- Implemented the software (C on MSP430 and ARM Cortex M0; Python services on GCP) for the Lifeline GoSafe personal emergency response system (incl. connectivity and location positioning). Later replicated the functionality as an Android app in a hackathon challenge.
-- Designed and implemented a fall prevention system - coupling an AWS-deployed ML model with telemetry from GoSafe wearables, through a bespoke ETL pipeline (custom-designed compression & DSP preprocessing in Python) and event processing architecture. The system scaled cost-effectively to 100k+ production users.
-- My responsibilities also included: technology evaluation and selection, IP creation and circumvention, acting as a Scrum master, mentoring of junior software engineers and PhD students, cooperation with EU projects and standardization bodies.
+- Performance work across the stack: custom profiling tools to optimize an H.264 decoder on a multicore DSP, temporal scalability QoS in Linux kernel for streaming of (encrypted) H.264 video (STB810 set-top-box, VP5500 VoIP phone), and an order-of-magnitude framerate increase on a specialized LED display (Lumalive).
+- R&D collaboration: EU projects (e.g. prototyped an OpenGL transcoder for the Games@Large cloud gaming project), standardization bodies (UPnP, MPEG), mentoring of junior software engineers and PhD students, patent creation and circumvention.
 
 Technologies: C, Python, JavaScript, AWS (ECS, Lambda, API Gateway, SQS, S3, CloudWatch), GCP, Docker, numpy, GitLab CI, Linux, MySQL, ETL, MSP430, ARM, location positioning, TCP/IP
 
@@ -121,8 +118,7 @@ Technologies: C, Python, JavaScript, AWS (ECS, Lambda, API Gateway, SQS, S3, Clo
 Designed and developed the software for real-time metering and billing for telecommunication services (e.g. calls, SMS and mobile payments), integrated as a part of the Siemens 3G network control platform (used later in production by major mobile network operators). Highlights:
 
 - Implemented custom Java serialization for a 2x performance improvement and stable operation.
-- Built a specialized testing harness which reduced testing time by an order of magnitude.
-- Extended testing harness with automatic conversion of fault logs to test cases.
+- Built a specialized testing harness which reduced testing time by an order of magnitude, and extended it with automatic conversion of fault logs to test cases.
 - Led a team of 4 software engineers and testers; championed Agile development practices (e.g. short-cycle incremental planning, TDD, automation) prior to their widespread adoption.
 
 Technologies: Java, Linux, Oracle Database
