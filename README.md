@@ -10,9 +10,9 @@ I take data and AI/ML systems from research prototypes to production: training a
 
 **Languages & platforms:** Python (primary), Rust, Go, Bash · AWS, Azure · Docker · Linux
 
-**AI/ML:** PyTorch · distributed training (DDP, SLURM, Prefect) · TensorRT · model packaging and release automation · experiment tracking and metrics visualization (W&B, Neptune, Plotly)
+**AI/ML:** PyTorch · distributed training (DDP, SLURM, Prefect) · TensorRT · model packaging and release automation · experiment tracking and metrics visualization (W&B, Neptune, Plotly, Gradio)
 
-**Platform & data:** CI/CD (GitLab CI, GitHub Actions) · ETL and data pipelines · S3 data lakes · PostgreSQL, TimescaleDB · MongoDB, Redis · FastAPI · observability (Grafana, DataDog)
+**Platform & data:** CI/CD (GitLab CI, GitHub Actions) · ETL and data pipelines · S3 data lakes · PostgreSQL, TimescaleDB, SQL · MongoDB, Redis · FastAPI · observability (Grafana, DataDog)
 
 **Performance & troubleshooting:** throughput and memory optimization · distributed-system debugging · automated regression monitoring · PyTorch Profiler, perf, pprof, mprof, Nsight
 
@@ -26,7 +26,7 @@ I take data and AI/ML systems from research prototypes to production: training a
 
 Built and keep evolving an agentic system for automated research and development of ML model pipelines for live quantitative prediction in the finance domain. The harness for the agents uses persistent memory across research sessions, and experiments use leakage-safe validation and statistical significance testing guardrails. The pipelines leverage an ensemble of gradient-boosted trees and PyTorch networks (e.g. XGBoost, LightGBM, ResNet, TabNet, TabM) on top of autoencoder & GAN embedders.
 
-Technologies: Python, PyTorch, scikit-learn, cuML, TensorRT, pandas, numpy, LangChain, Hugging Face SDKs, MCP, RAG, Claude Code, llama.cpp, SQL, Docker
+Technologies: Python, PyTorch, scikit-learn, cuML, TensorRT, pandas, numpy, LangChain, Hugging Face SDKs, MCP, RAG, Claude Code, SQL, Docker
 
 ### Staff Software Engineer - [Helsing](https://helsing.ai/)
 
@@ -36,7 +36,7 @@ Worked with research scientists on productization of a computer vision and telem
 
 - Optimized the computer vision processing pipeline to operate at 2.8x of the original framerate.
 - Integrated the pipeline with telemetry acquisition, actuation, as well as safety harness and overrides - making it part of a product.
-- Implemented the ETL pipeline and automated nightly regression monitoring of algorithm performance metrics against a baseline - enabling the team to visualize trends and catch regressions early.
+- Implemented the ETL pipeline over field-collected telemetry and imagery, and automated nightly regression monitoring of algorithm performance metrics against a baseline - enabling the team to visualize trends and catch regressions early.
 
 Technologies: Rust, Python, Bash, perf, pprof, TensorRT, GitLab CI, Plotly, pandas, numpy, protobuf, Neptune, Grafana, Claude Code
 
@@ -69,13 +69,12 @@ Technologies: Python, PyTorch, PyTorch Profiler, cuML, scikit-learn, pandas, num
 
 Lead software engineer in the Fluence unit of OSRAM, on the Smart Farming team tasked with digitization of vertical farming and greenhouse operations. Highlights:
 
-- In the Senior role, I led a team of 3 who developed a Node.js/Electron app, and I implemented a CLI in Go (open-sourced) for PHYTOFY research light control - used by e.g. NASA, 3rd-party (climate chamber) integrators, the Customer Cultivation Support Lab, and a factory for system test automation.
+- In the Senior role, led a team of 3 who developed a Node.js/Electron app, and implemented a CLI in Go (open-sourced) for PHYTOFY research light control - used by e.g. NASA, 3rd-party (climate chamber) integrators, the Customer Cultivation Support Lab, and a factory for system test automation.
 - Advised the CEO office on 3rd-party partner and systems selection in merger/acquisition projects.
-- Automated lab & testbed sites operations (secure remote access for telemetry and control, etc.).
 - Promoted to the Principal role, I led a team of 9 engineers while also engineering critical paths. The team developed, launched and operated a multi-tenant IIoT platform on AWS, tailored to operating indoor / greenhouse plant production, integrating 3rd-party vendors for lighting actuation scheduling and sensor data acquisition, and featuring production status dashboards, alerts and notifications, and decision-support tools leveraging satellite-based climate lighting models. This covered: cloud infrastructure, backend services/APIs, web frontend and mobile app.
 - Mentored the R&D team, raised the engineering bar and enabled the transition from PoCs to launched products: rollout of CI/CD build and deployment automation, AWS best practices, introduction of postmortems for production issues, UX harmonization across frontends, unification of roadmap and prioritization of backlog items to improve team's coordination, integration with enterprise security scanning infrastructure, and migration of the time-series database to a managed service to unblock scaling issues and improve the cost-effectiveness.
 
-Technologies: Python, Go, AWS (ECS, ECR, SQS, RDS, SNS, WorkMail, Cognito, Lambda, API Gateway, EB, EFS, EC2, CloudFormation, CloudWatch), Azure (AKS, Azure Active Directory, Azure Blob Storage), Kubernetes, Docker, Terraform, Bitbucket Pipelines, GitHub Actions, PostgreSQL, TimescaleDB, Redis, FastAPI, Plotly, TypeScript, Vue, Vuetify
+Technologies: Python, Go, AWS (ECS, ECR, SQS, RDS, SNS, Cognito, Lambda, API Gateway, EB, EFS, EC2, CloudFormation, CloudWatch), Azure (AKS, Azure Active Directory, Azure Blob Storage), Kubernetes, Docker, Terraform, Bitbucket Pipelines, GitHub Actions, PostgreSQL, TimescaleDB, Redis, FastAPI, Plotly, TypeScript, Vue, Vuetify
 
 **Links:** [PHYTOFY at NASA](https://youtu.be/bSFfbB5mT-o)
 
@@ -101,7 +100,7 @@ Technologies: Python, JavaScript, Go, Bash, Docker, Linux, GitLab CI, CI/CD, Ans
 
 Engineered new Philips products and services, initially for consumer electronics and video streaming, later for personal fitness and healthcare. Projects spanned from resource-constrained IoT devices to backend/cloud platforms. Highlights:
 
-- Designed and implemented a fall prevention system - coupling an AWS-deployed ML model with telemetry from GoSafe wearables, through a bespoke ETL pipeline (custom-designed compression & DSP preprocessing in Python) and an event-driven architecture. The system scaled cost-effectively to 100k+ production users.
+- Designed and implemented a fall prevention system - coupling an AWS-deployed ML model (SVM) with telemetry from GoSafe wearables, through a bespoke ETL pipeline (custom-designed compression & DSP preprocessing in Python) and an event-driven architecture (0.5 TB/day). The system scaled cost-effectively to 100k+ production users.
 - Implemented the software (C on MSP430 and ARM Cortex M0; Python services on GCP) for the Lifeline GoSafe personal emergency response system (incl. connectivity and location positioning).
 - Implemented social features for the DirectLife fitness tracking cloud service and created prototypes for monitoring of all pillars of physical fitness.
 - Performance work across the stack: custom profiling tools to optimize an H.264 decoder on a multicore DSP, temporal scalability QoS in Linux kernel for streaming of (encrypted) H.264 video (STB810 set-top-box, VP5500 VoIP phone), and an order-of-magnitude framerate increase on a specialized LED display (Lumalive).
