@@ -16,7 +16,7 @@ I take data and AI/ML systems from research prototypes to production: training a
 
 **Performance & troubleshooting:** throughput and memory optimization · distributed-system debugging · automated regression monitoring · PyTorch Profiler, perf, pprof, mprof, Nsight
 
-**Leadership:** teams of 9 (OSRAM), 5 (Paige), 4 (Huawei, Siemens) · product owner alongside engineering · mentoring, code reviews, cross-functional coordination in large organizations
+**Leadership:** led teams of 9 (OSRAM), 5 (Paige), 4 (Huawei, Siemens) · product owner alongside engineering · mentoring, code reviews, cross-functional coordination in large organizations
 
 ## PROFESSIONAL EXPERIENCE
 
@@ -24,7 +24,7 @@ I take data and AI/ML systems from research prototypes to production: training a
 
 *March 2026 - present*; *München, Germany*
 
-Built and keep evolving an agentic system for automated research and development of ML model pipelines for live quantitative prediction in the finance domain. The harness for the agents uses persistent memory across research sessions, and experiments use leakage-safe validation and statistical significance testing guardrails. The pipelines leverage an ensemble of gradient-boosted trees and PyTorch networks (e.g. XGBoost, LightGBM, ResNet, TabNet, TabM) on top of autoencoder & GAN embedders.
+Built and keep evolving an agentic system for automated research and development of ML model pipelines for live prediction in finance. The harness for the agents uses persistent memory across research sessions, and experiments use leakage-safe validation and statistical significance testing guardrails. The pipelines ensemble gradient-boosted trees and PyTorch networks (e.g. XGBoost, LightGBM, ResNet, TabNet, TabM) over quantitative features and autoencoder & GAN embeddings.
 
 Technologies: Python, PyTorch, scikit-learn, cuML, TensorRT, pandas, numpy, LangChain, Hugging Face SDKs, MCP, RAG, Claude Code, SQL, Docker
 
