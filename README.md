@@ -1,6 +1,6 @@
 # Marek Burza · Staff Software Engineer
 
-[https://linkedin.com/in/mkburza](https://linkedin.com/in/mkburza) <!-- EMAIL --> <!-- PHONE -->
+Munich, Germany · [https://linkedin.com/in/mkburza](https://linkedin.com/in/mkburza) <!-- EMAIL --> <!-- PHONE -->
 
 ---
 
